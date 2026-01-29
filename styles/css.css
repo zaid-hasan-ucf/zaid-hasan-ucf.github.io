@@ -11,6 +11,7 @@
 }
 #container article {
     width: 300px;
+    margin: 10px;
 }
 header {
     text-align: center;
