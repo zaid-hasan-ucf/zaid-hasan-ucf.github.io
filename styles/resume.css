@@ -1,0 +1,51 @@
+
+#centered {
+    text-align: center;
+    margin-bottom: 20px;
+}
+hr.divider {
+    border-top: 2px solid #000;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 2.5vw;
+    }
+    img {
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    body {
+        font-size: 2vw;
+    }
+    img {
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body {
+        font-size: 1.5vw;
+    }
+    img {
+        width: 40%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        font-size: 1vw;
+    }
+    img {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        font-size: 0.8vw;
+    }
+    img {
+        width: 20%;
+    }
+}
