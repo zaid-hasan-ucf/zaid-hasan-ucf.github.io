@@ -12,17 +12,21 @@ function tickDown() {
 }  
 
 function runForLoop() {
-    document.getElementById("forLoopResult").innerHTML = "";
+    let number = document.getElementById("forLoopResult")
+    let output = "";
     for (let i = 0; i < counter+1; i++) {
-        document.getElementById("forLoopResult").innerHTML += i + " ";
+        output += i + " ";
     }
+    document.getElementById("forLoopResult").innerText = output;
 }
 
 function showOddNumbers() {
-    document.getElementById("oddNumberResult").innerHTML = "";
+    let number = document.getElementById("oddNumberResult")
+    let output = "";
     for (let i = 1; i < counter+1; i+=2) {
-        document.getElementById("oddNumberResult").innerHTML += i + " ";
+        output += i + " ";
     }
+    document.getElementById("oddNumberResult").innerText = output;
 }
 
 function addMultiplesToArray() {
