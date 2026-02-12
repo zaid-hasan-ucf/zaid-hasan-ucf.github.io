@@ -12,7 +12,6 @@ function tickDown() {
 }  
 
 function runForLoop() {
-    let number = document.getElementById("forLoopResult")
     let output = "";
     for (let i = 0; i < counter+1; i++) {
         output += i + " ";
@@ -21,7 +20,6 @@ function runForLoop() {
 }
 
 function showOddNumbers() {
-    let number = document.getElementById("oddNumberResult")
     let output = "";
     for (let i = 1; i < counter+1; i+=2) {
         output += i + " ";
