@@ -1,0 +1,52 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+#pokemonImage {
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+select {
+    width: 100px;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 30px;
+    border: 6px solid gold;
+    padding: 30px 40px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+section#pokemonList {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.pokemon {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 150px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    background-color: white;
+}
+.pokemon img {
+    width: 150px;
+    height: 150px;
+}

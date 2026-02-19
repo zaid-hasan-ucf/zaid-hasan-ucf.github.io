@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <title>Pokemon Thing</title>
+        <link rel="stylesheet" href="styles/assignment8.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="scripts/assignment8.js"></script>
+    </head>
+
+    <body>
+        <section class="card">
+          <p>Name or ID</p>
+          <input type="text" name="Name" id="Name" required>
+          <button onclick="getPokemon()" id="getPokemon">Find</button>
+          <br>
+          <img src="images/placeholder.png" id="pokemonImage" alt="Pokemon Image">
+          <br>
+          <audio controls id="Sound">
+              <source src="" type="audio/ogg">
+          </audio>
+          <br>
+          <select id="move1">Move 1</select>
+          <select id="move2">Move 2</select>
+          <br>
+          <select id="move3">Move 3</select>
+          <select id="move4">Move 4</select>
+          <br>
+          <button onclick="addToTeam()">Add to Team</button>
+          <section id="pokemonList"></section>
+        </section>
+      </body>
+</html>
